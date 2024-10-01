@@ -1,6 +1,8 @@
 # PerceptionChallenge2024
 my submission for the perception challenge for the Wisconsin Autonomous club
 
+<img width="699" alt="solution" src="https://github.com/user-attachments/assets/0b59e572-5234-4fbf-bae7-33fcc6997ebc">
+
 ## Methodology
 I processed the image by converting it to HSV color space to isolate red cones. Using specific color thresholds, I created masks to capture the cones. To reduce noise, I applied morphological operations and blurred the image before detecting edges with Canny.
 
